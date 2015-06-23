@@ -1,0 +1,23 @@
+"""
+<P>An ant moves on a regular grid of squares that are coloured either 
+black or white<BR/> The ant is always oriented in one of the cardinal 
+directions left right up or down and moves from square to adjacent 
+square according to the following rules<BR/> if it is on a black 
+square it flips the color of the square to white rotates 90 degrees 
+counterclockwise and moves forward one square<BR/> if it is on a white 
+square it flips the color of the square to black rotates 90 degrees 
+clockwise and moves forward one square<BR/></P><P>Starting with a grid 
+that is entirely white how many squares are black after 10<sup>18
+</sup> moves of the ant</P>
+"""
+
+def euler349():
+    """
+    >>> euler349()
+    'to-do'
+    """
+    pass
+
+if __name__ == "__main__":
+    import doctest
+    doctest.testmod()
